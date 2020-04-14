@@ -1,0 +1,270 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+input {
+  outline: none;
+}
+
+.dec {
+  text-decoration: none;
+}
+
+.form-control:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+}
+
+.has-submenu {
+  position: relative;
+}
+
+.has-submenu:hover .submenu {
+  opacity: 1;
+  top: 32px;
+}
+
+.submenu {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  position: absolute;
+  background-color: #e9d9c1;
+  border-top: 4px solid orange;
+  width: 140px;
+  z-index: 99;
+  opacity: 0;
+  top: 46px;
+  color: white;
+  height: 146px;
+}
+
+.submenu li {
+  padding-left: 7px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.submenu li a {
+  color: black;
+  display: inline-block;
+}
+
+.submenu li a:hover {
+  color: black;
+}
+
+.border-1 {
+  border-top: 1px solid #797676;
+}
+
+section {
+  position: relative;
+}
+
+section::after {
+  position: fixed;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  content: "\f062";
+  color: white;
+  font-size: 36px;
+  right: 12px;
+  z-index: 99;
+  bottom: 16px;
+  border-radius: 100%;
+  background-color: #ff6a00;
+  width: 57px;
+  height: 57px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left > .list-group .list-group-item {
+  border: none;
+}
+
+.right > .list-group .list-group-item {
+  border: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.right > .list-group .list-group-item:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.right > .list-group .list-group-item:hover a {
+  color: orange;
+}
+
+.right > .list-group .list-group-item > a {
+  color: white;
+}
+
+.font-size {
+  font-size: 13px;
+}
+
+.main-header {
+  background-color: white;
+}
+
+.bottom-header {
+  border-top: 1px solid #e9e7e7;
+  background-color: white;
+  -webkit-box-shadow: 3px 32px 25px -26px #ccc2cc;
+  box-shadow: 3px 32px 25px -26px #ccc2cc;
+}
+
+.bottom-header ul > li {
+  border: none;
+}
+
+.bottom-header ul > li .action {
+  color: #da6028;
+}
+
+.bottom-header ul > li > a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+.bottom-header ul > li > a:hover {
+  color: #da6028;
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer .right .privacy li a {
+  text-decoration: none;
+  font-size: 12px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  color: #212529;
+}
+
+.footer .right .privacy li a:hover {
+  color: #f05811;
+}
+
+.footer .left p a i {
+  color: #f05811;
+}
+
+.footer .social-media li {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.footer .social-media li:hover {
+  margin-top: -6px;
+}
+
+.footer .social-media li:hover a {
+  color: #f05811;
+}
+
+.footer .social-media li a {
+  color: #464444;
+}
+
+.email input[type=email] {
+  background-color: black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  position: relative;
+  outline: none;
+  width: 230px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #c0bebe;
+}
+
+.email a img {
+  position: absolute;
+  left: 210px;
+  bottom: 105px;
+}
+
+.search-1:hover .search-hover {
+  opacity: 1;
+}
+
+.search-1 {
+  color: #363535;
+  position: absolute;
+  top: 5px;
+  right: -13px;
+  font-size: 16px;
+}
+
+.search-hover {
+  position: relative;
+  opacity: 0;
+}
+
+.big-one .image img {
+  border-radius: none;
+}
+
+.big-one .facebook {
+  height: 70px;
+  width: 180px;
+  height: 63px;
+  padding-left: 10px;
+  border-radius: 6px;
+}
+
+.big-one .facebook .words .m {
+  line-height: 0px;
+  font-size: 12px;
+  color: grey;
+  font-weight: 500;
+}
+
+.big-one .facebook .words p {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1px;
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.paragraph p {
+  color: #757373;
+}
+/*# sourceMappingURL=second.css.map */

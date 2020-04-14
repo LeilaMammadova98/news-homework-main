@@ -1,0 +1,314 @@
+html,body{margin:0;
+    padding:0;}
+    ul,li{list-style: none;}
+
+input{outline:none;}
+.dec{text-decoration:none;}
+
+ 
+
+
+.form-control:active{
+        box-shadow: none;
+        border:none;
+    }
+    
+    
+.has-submenu {position:relative;
+  
+ &:hover{
+            .submenu{opacity:1;
+       
+            top:32px;
+            
+       
+        ;}
+    
+   
+}
+    
+}
+.submenu{
+    transition: all 0.2s;
+    position:absolute;
+    background-color: rgb(233, 217, 193)
+    
+    
+    
+    ;
+    border-top:4px solid orange;
+    width:140px;
+    z-index:99;
+    opacity:0;
+  top:46px;
+ 
+  color:white;
+    height:146px;
+
+    li{padding-left:7px;
+    padding-top:3px;
+padding-bottom:3px;
+a{color:black;
+    display:inline-block;
+    &:hover{color:black;}
+}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .border-1{border-top: 1px solid rgb(121, 118, 118);;}
+    
+    section{position:relative;
+       
+    
+    }
+    section::after{
+        position:fixed;
+        align-items: center;
+        display: flex;
+        cursor: pointer;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 600;
+        content: "\f062";
+        color: white;
+        font-size: 36px;
+        right: 12px;
+      z-index:99;
+        bottom: 16px;
+        border-radius: 100%;
+        
+        background-color: #ff6a00;
+        width: 57px;
+        height: 57px;
+        justify-content: center;
+    }
+    *{box-sizing:border-box;}
+    
+    a{text-decoration: none;}
+    
+    .left{
+    
+        & > .list-group{ 
+        & .list-group-item{border:none;}
+        }
+    
+    }
+    
+    .right{
+    
+        & > .list-group{ 
+        & .list-group-item{border:none;
+            transition:all 0.5s;
+ 
+            &:hover{transform: rotateY(180deg);
+                a{
+                color:orange;
+             }
+            }
+    
+    
+       
+           
+          
+        
+        & > a{
+            color:white;
+          
+    
+          
+            }
+    
+    
+        }
+        }
+    
+        }
+    
+    
+    
+    .font-size{font-size:13px;}
+    
+    .main-header{
+        background-color: white;
+    }
+    
+    
+    .bottom-header{
+    border-top:1px solid rgb(233, 231, 231);
+    background-color: white;;
+    -webkit-box-shadow: 3px 32px 25px -26px rgba(204,194,204,1);
+    -moz-box-shadow: 3px 32px 25px -26px rgba(204,194,204,1);
+    box-shadow: 3px 32px 25px -26px rgba(204,194,204,1);
+    
+    
+    
+        &  ul 
+    {
+       & > li{border:none;
+     
+    .action{
+        color:rgb(218, 96, 40);
+    }
+        
+       & > a{color:black;
+   
+    text-decoration:none;
+    font-weight:600;
+    transition:all 0.1s;
+    
+    
+    &:hover{
+        color:rgb(218, 96, 40);
+    }
+    }
+        
+        }
+    }
+     
+    }
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .footer{background-color: black;
+        .right{
+            .privacy{ 
+                li{
+                    a{
+                        text-decoration:none;
+                       font-size:12px;
+                      transition:all 0.4s;
+                       color:rgb(33, 37, 41);
+                    
+                    
+                    &:hover{color:rgb(240, 88, 17);}
+                    
+                    }
+                }
+            }
+        }
+    
+    
+    
+        .left{
+    
+    
+            p{
+            a{
+                i{color:rgb(240, 88, 17);}
+            }
+            
+            }
+            }
+    .social-media{
+    
+    
+    li{ transition:all 0.2s;
+    
+        &:hover{
+            margin-top: -6px;
+                a{color:rgb(240, 88, 17);
+    
+                
+            }
+        }
+        a{
+           color:rgb(70, 68, 68)
+        }
+    }
+    
+    
+      
+    }
+        }
+    
+    .email{
+        
+    
+    
+        input[type=email]{background-color:black;
+        border-top:none;
+    border-left:none;
+    border-right:none;
+    position:relative;
+    outline: none;
+    width:230px;
+    padding-bottom:7px;
+    
+    border-bottom:1px solid rgb(192, 190, 190);}
+    
+    a {img{position:absolute;
+    
+    left: 210px;
+    bottom: 105px;}
+    
+    }
+    
+    
+    }
+
+
+    .search-1{
+    &:hover{
+         .search-hover{opacity:1}
+     }}
+  
+  
+  
+     .search-1{
+        color: #363535;
+        position:absolute;
+        
+       
+        top: 5px;
+        right: -13px;
+        font-size: 16px;
+    }
+    .search-hover{
+        position:relative;
+     opacity:0;
+    ;}
+    
+

@@ -1,0 +1,238 @@
+@import 'header-footer';
+
+    
+.news{
+
+& .btn-1{
+    background-color: #ff0b0b;
+    border:none;
+    font-size:13px;
+    font-weight:600;
+}
+
+.big-image{position:relative;
+   
+
+&:after{
+    content: '';
+    display:inline-block;
+    width: 100%;
+    border-radius: 4px;
+    height:auto;
+    background-color: #00000061;;
+    z-index:1;
+    top:0;
+    bottom:0;
+    right:0;
+    position:absolute;
+    left:0;
+}
+
+.overlay{
+    position: absolute;
+    display: inline-block;
+    width: 70%;
+    bottom: 5px;
+    left: 22px;
+    z-index:3;
+
+
+
+   .btn-grey {background-color: rgb(216, 210, 210);
+    font-size:14px;
+    color:black;
+
+   
+    } .title{font-size:30px;
+color:white;
+    }
+}
+
+}
+
+.main{
+    .image{border-radius:4px;}
+
+    .little-words{
+
+        .title{
+            font-size:17px;
+        }
+        .btn-pink{
+            font-size:13px;
+            padding: 10px 15px;
+            background-color: #f5cfd6;
+        }
+    }
+}
+
+}
+
+.concert{
+  border-bottom: 1px solid #d8caca30;
+    .title{
+        font-size:17px;
+        width: 103%;
+
+    }
+    .btn-pink{
+        font-size:13px;
+        padding: 10px 15px;
+        background-color: #f5cfd6;
+    }
+}
+  
+.border-1{ border-top: 1px solid #d8caca30
+    ;
+  ;}
+ 
+
+  .weekly{
+
+    .big-image{
+        position:relative;
+        &:hover{
+            .overlay{ 
+                opacity:1;
+                bottom:10px;
+            }
+        }
+
+        .overlay{
+            position: absolute;
+            display: inline-block;
+            width: 277px;
+            bottom: 3px;
+            left: 10px;
+            height: 150px;
+            background-color: white;
+            border-radius: 5px;
+            padding-left: 13px;
+            padding-top: 8px;
+            opacity: 0;
+            transition:all 0.5s;
+
+           
+
+            .title{
+                font-size:17px;
+                
+        
+            }
+            .btn-grey{
+                font-weight:bold;
+                font-size:13px;
+                padding: 10px 15px;
+                background-color: #f5cfd6;
+            }
+        }
+    }
+  }
+
+ 
+    
+      
+      .big-title{
+          .btn-pink{
+              background-color: rgb(233, 223, 224);
+              color:rgb(97, 85, 85);
+              padding:0 15px;
+          }
+       
+     
+   }
+  
+.image{position:relative;
+
+    &:hover {
+    .overlay{  bottom:-62px;
+    }
+      }
+    .overlay{
+        position: absolute;
+        display: inline-block;
+        width: 277px;
+        bottom: -52px;
+        left: 10px;
+        height: 150px;
+        background-color: white;
+        border-radius: 5px;
+        padding-left: 13px;
+        padding-top: 8px;
+   
+        transition:all 0.5s;
+
+       
+
+        .title{
+            font-size:17px;
+            
+    
+        }
+        .btn-grey{
+            font-weight:bold;
+            font-size:13px;
+            padding: 10px 15px;
+            background-color: #f5cfd6;
+        }}
+}
+
+
+
+.follow{
+
+    .facebook{
+
+        height: 70px;
+        width: 180px;
+        height: 63px;
+      padding-left: 10px;
+      border-radius:6px;
+   
+    .words{
+
+    
+.m{
+  line-height: 0px;
+  font-size: 12px;
+  color: grey;
+  font-weight: 500;
+
+}
+          p{    font-weight: 600;
+              font-size: 15px;
+              line-height: 1px;}}}}
+      
+      
+
+
+.top-news{
+    background-color:#f7f7fd ;
+
+    .corporate{
+
+    
+    
+    position:relative;
+p{color:rgb(172, 168, 168);
+margin-top:10px;}
+        h2{font-size:20px;
+            margin-top: -14px;}
+ .btn-grey{
+    font-weight: bold;
+    font-size: 13px;
+    top: 127px;
+    border-radius: 0;
+    padding: 10px 15px;
+    background-color: #f5cfd6;
+    position: absolute;
+    left: 0;
+    width: 115px;
+    justify-content: center;
+    height: 38px;
+    align-content: center;
+}}
+
+
+}
+
